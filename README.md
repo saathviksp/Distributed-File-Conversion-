@@ -22,17 +22,10 @@ Client → Gateway → Worker Nodes
 
 ## How to Run
 
-Start workers
+Open Root Server In Terminal And Run The Following Command
+powershell -ExecutionPolicy Bypass -File start_system.ps1
 
-python worker.py W1 6001  
-python worker.py W2 6002  
-python worker.py W3 6003  
 
-Start gateway
+this will automatically start the 3 servers , gateway manager and client.
+operate the system from the client terminal.
 
-javac Gateway.java  
-java Gateway  
-
-Run client
-
-python client.py
